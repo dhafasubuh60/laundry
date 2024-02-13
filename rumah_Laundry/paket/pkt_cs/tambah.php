@@ -50,7 +50,7 @@
 
                         <div class="form-grup">
                            <label for="berat">Satuan Min (Pcs)</label>
-                           <input type="number" name="kuantitas_cs" placeholder="Jumlah pakaian" autocomplete="off" id="berat" required>
+                           <input type="number" name="kuantitas_cs" placeholder="Jumlah AC" autocomplete="off" id="berat" required>
                         </div>
 
                         <div class="form-grup">

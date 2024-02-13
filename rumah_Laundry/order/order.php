@@ -24,22 +24,22 @@
                         <div class="container-paket">
                            <div class="col-paket">
                               <a href="<?=url('order/order_ck.php')?>" class="paket">
-                                 <img src="<?=url('_assets/img/cuci_komplit.png')?>" alt="cuci komplit" width="160">
-                                 <h4>Cuci Komplit</h4>
+                                 <img src="<?=url('_assets/img/karpet katun.jpg')?>" alt="cuci karpet rumah satuan" width="160">
+                                 <h4>Cuci karpet rumah satuan</h4>
                               </a>
                            </div>
 
                            <div class="col-paket">
                               <a href="<?=url('order/order_dc.php')?>" class="paket">
-                                 <img src="<?=url('_assets/img/dry_clean.png')?>" alt="dry clean" width="160">
+                                 <img src="<?=url('_assets/img/krpt msjd.jpg')?>" alt="dry clean" width="160">
                                  <h4>Dry Clean</h4>
                               </a>
                            </div>
 
                            <div class="col-paket">
                               <a href="<?=url('order/order_cs.php')?>" class="paket">
-                                 <img src="<?=url('_assets/img/kemeja_2.png')?>" alt="cuci satuan" width="160">
-                                 <h4>Cuci Satuan</h4>
+                                 <img src="<?=url('_assets/img/ac rumah.jpg')?>" alt="cuci AC komplit" width="160">
+                                 <h4>Cuci AC komplit</h4>
                               </a>
                            </div>
                         </div>

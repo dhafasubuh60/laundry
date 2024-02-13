@@ -88,13 +88,13 @@
 			<div class="col box__right">
 				<div class="box__right-content">
 					<div class="text__right">
-						<h1>Admin Laundry</h1>
-					</div>
+						<h1>Laundry karpet </h1>
+					</div> 
 
 					<img src=" <?=url('_assets/img/orang.png')?>" alt="" class="box-img-orang">
-					<img src=" <?=url('_assets/img/celana.png')?>" alt="" class="box-img-celana">
-					<img src=" <?=url('_assets/img/kaos.png')?>" alt="" class="box-img-kaos">
-					<img src=" <?=url('_assets/img/kemeja.png')?>" alt="" class="box-img-kemeja">
+					<img src=" <?=url('_assets/img/karpetmasjid.jpg')?>" alt="" class="box-img-karpetmasjid">
+					<img src=" <?=url('_assets/img/ac rumah.jpg')?>" alt="" class="box-img-ac rumah">
+					<img src=" <?=url('_assets/img/.jpg')?>" alt="" class="box-img-karpet katun">
 
 					<!-- Bubble Variasi -->
 					<div class="bubble-1"></div>

@@ -37,7 +37,7 @@ function url($url = null){
 function add_kary($karyawan){
 	global $koneksi;
 
-	$nama			= htmlspecialchars($karyawan['nama']);
+	$nama		= htmlspecialchars($karyawan['nama']);
 	$username	= htmlspecialchars($karyawan['username']);
 	$email		= htmlspecialchars($karyawan['email']);
 	$password	= stripcslashes(htmlspecialchars($karyawan['password']));
@@ -93,7 +93,7 @@ function add_ck($data_ck){
 	global $koneksi;
 	$nama_pkt_ck 	= htmlspecialchars($data_ck['nama_paket_ck']);
 	$waktu_krj_ck 	= htmlspecialchars($data_ck['waktu_kerja_ck']);
-	$qty_ck 			= htmlspecialchars($data_ck['kuantitas_ck']);
+	$qty_ck 		= htmlspecialchars($data_ck['kuantitas_ck']);
 	$tarif_ck 		= htmlspecialchars($data_ck['tarif_ck']);
 
 	$query_ck = "INSERT INTO tb_cuci_komplit VALUES (
@@ -109,7 +109,7 @@ function edit_ck($edit_ck){
 	$id_ck 			= $edit_ck['id_ck'];
 	$nama_pkt_ck 	= htmlspecialchars($edit_ck['nama_paket_ck']);
 	$waktu_krj_ck	= htmlspecialchars($edit_ck['waktu_kerja_ck']);
-	$qty_ck 			= htmlspecialchars($edit_ck['kuantitas_ck']);
+	$qty_ck 		= htmlspecialchars($edit_ck['kuantitas_ck']);
 	$tarif_ck 		= htmlspecialchars($edit_ck['tarif_ck']);
 
 	mysqli_query($koneksi,"UPDATE tb_cuci_komplit SET
